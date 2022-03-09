@@ -13,5 +13,18 @@ if(number){
 const money=200
 let foods;
 const food=money>100? 'Muton':'Birani'
-console.log(food)
+// console.log(food)
+
+
+
+//3 shortcut
+// number to string conver
+const num=56
+const numString=num+''
+// console.log(numString)
+
+
+const input='558'
+const converInput=+input
+console.log(converInput)
 
