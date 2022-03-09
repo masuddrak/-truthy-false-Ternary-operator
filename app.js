@@ -23,8 +23,14 @@ const num=56
 const numString=num+''
 // console.log(numString)
 
-
+// string to number
 const input='558'
 const converInput=+input
-console.log(converInput)
+// console.log(converInput)
 
+
+// using a condition ternary operator
+const isActive=false
+const showUser=()=>console.log('display user')
+const hidUser=()=>console.log('hid user')
+isActive?showUser():hidUser()
