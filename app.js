@@ -30,7 +30,9 @@ const converInput=+input
 
 
 // using a condition ternary operator
-const isActive=false
+let isActive=false
 const showUser=()=>console.log('display user')
 const hidUser=()=>console.log('hid user')
-isActive?showUser():hidUser()
+// isActive?showUser():hidUser()
+isActive && showUser()
+isActive || hidUser()
